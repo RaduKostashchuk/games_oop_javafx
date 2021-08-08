@@ -33,6 +33,6 @@ public class Win {
             }
         }
 
-        return rsl = false;
+        return false;
     }
 }
