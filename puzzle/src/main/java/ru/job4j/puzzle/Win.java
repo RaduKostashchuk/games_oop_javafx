@@ -24,12 +24,11 @@ public class Win {
     }
 
     public static boolean check(int[][] board) {
-        boolean rsl = true;
          // Check row and column
         for (int index = 0; index < board.length; index++) {
             if (board[index][index] == 1
                     && (checkColumn(board, index) || checkRow(board, index))) {
-                return rsl;
+                return true;
             }
         }
 
